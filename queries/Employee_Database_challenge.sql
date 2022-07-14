@@ -57,7 +57,7 @@ ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
 
-
+--Summary Queries
 SELECT SUM(count)
 FROM retiring_titles;
 
