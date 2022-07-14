@@ -29,7 +29,7 @@ SELECT * FROM unique_titles;
 
 --Counts of retiring by title
 SELECT COUNT(title) AS "count", title
---INTO retiring_titles
+INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY "count" DESC;
