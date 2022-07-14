@@ -56,4 +56,3 @@ AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
-ORDER BY emp_no, title DESC;
