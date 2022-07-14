@@ -27,6 +27,7 @@ ORDER BY emp_no, title DESC;
 
 SELECT * FROM unique_titles;
 
+--Counts of retiring by title
 SELECT COUNT(title) AS "count", title
 INTO retiring_titles
 FROM unique_titles
@@ -35,6 +36,7 @@ ORDER BY "count" DESC;
 
 SELECT * FROM retiring_titles;
 
+--Employees eligible for mentorship program
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
     e.first_name,
     e.last_name,
